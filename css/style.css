@@ -69,7 +69,7 @@ textarea {
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
-      font-size: 4.5rem; } }
+      font-size: 3.5rem; } }
 
 .heading-sec__mb-bg {
   margin-bottom: 11rem; }
@@ -112,8 +112,8 @@ textarea {
         top: calc(100% + 1.2rem); } }
 
 .heading-sec__sub {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: #777;
   font-size: 2rem;
   font-weight: 500;
@@ -443,11 +443,15 @@ textarea {
         font-size: 2.4rem; } }
 
 .project-details__showcase-img-cont {
-  width: 100%;
+  width: 60%;
+  
   margin-bottom: 6rem; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  left: 35%;
+ }
 
 .project-details__content-main {
   width: 100%;
